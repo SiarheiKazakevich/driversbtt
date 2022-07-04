@@ -1,1 +1,1 @@
-https://SiarheiKazakevich.github.io/driversbtt/
+https://SiarheiKazakevich.github.io/siarheikazakevich-driversbtt/
