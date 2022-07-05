@@ -366,7 +366,8 @@ body._touch .menulist > li._active .menuarrow {
 	.fotochanel {
 		
 		width: 80vw;
-		height: 55vh;
+		height: 100%;
+		/*height: 55vh;*/
 		margin-right: 1.5vw;
 		margin-bottom: 1.5vw;
 	}
