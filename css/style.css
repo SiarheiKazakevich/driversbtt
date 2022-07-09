@@ -225,6 +225,59 @@ body._touch .menulist > li._active .menusublist {
 body._touch .menulist > li._active .menuarrow {
 	transform: rotate(-188deg);
 }
+
+/* foooooooooooter**********************/
+.footer {
+	height: 150px;
+	background-color: black;
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+	font-family: InterRegular;
+	font-style: normal;
+}
+.mainboxfooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 56px;
+}
+.boxlefticon {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.boxleftitem {
+	margin: 0 14px;
+	color: white;
+	padding: 0px;
+}
+li {
+	list-style-type: none;
+}
+li,
+a {
+	font-family: InterRegular;
+	font-style: normal;
+	text-decoration: none;
+	color: white;
+}
+.boxcentricon h6 {
+	font-size: 17px;
+}
+.boxrighticon {
+	width: 188px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-decoration: none;
+}
+.iconfooter {
+
+}
+
 /*------------*/
 @media (min-width: 767px) {
 	.menulist {
@@ -240,8 +293,7 @@ body._touch .menulist > li._active .menuarrow {
 		visibility: hidden;
 		pointer-events: none;
 		transition: all 0.3s ease 0s;
-	}
-	
+	}	
 }
 @media (max-width: 767px) {
 	.menuicon {
