@@ -59,7 +59,7 @@ body._lock {
 	background-color: rgb(175, 106, 37);
 }
 .pagesection3 {
-	background-color: rgb(234, 250, 7);
+	background-color: rgb(90, 97, 3);
 }
 /* мои изменения*/
 .pagetitle {
@@ -82,9 +82,18 @@ body._lock {
 .stark{
 	color: rgb(249, 10, 10);
 }
+.chanel {
+	display: inline-block
+	align-items: center;
+}
 .fotochanel {
 	width: 60vw;
 	height: 30vh;
+	margin-right: 3vw;
+}
+.videochanel {
+	width: 40vw;
+	height: 50vh;
 	margin-right: 3vw;
 }
 .youtobe {
@@ -256,18 +265,26 @@ body._touch .menulist > li._active .menuarrow {
 li {
 	list-style-type: none;
 }
-li,
+li {
+	font-family: InterRegular;
+	font-style: normal;
+	text-decoration: none;
+	color: rgb(239, 227, 227);
+}
 a {
 	font-family: InterRegular;
 	font-style: normal;
 	text-decoration: none;
-	color: white;
+	color: rgb(17, 3, 86);
+}
+.iconfooter {
+	color: rgb(250, 242, 242);
 }
 .boxcentricon h6 {
 	font-size: 17px;
 }
 .boxrighticon {
-	width: 188px;
+	width: 170px;
 	height: 50px;
 	display: flex;
 	flex-direction: row;
@@ -392,7 +409,7 @@ a {
 	}
 	.menusublink {
 		font-size: 20px;
-		color: #000;
+		color: rgb(18, 18, 19);
 	}
 	.headerlogo {
 		border-radius: 2%;
@@ -420,6 +437,12 @@ a {
 		width: 80vw;
 		height: 100%;
 		/*height: 55vh;*/
+		margin-right: 1.5vw;
+		margin-bottom: 1.5vw;
+	}
+	.videochanel{		
+		width: 80vw;
+		height: 40vh;
 		margin-right: 1.5vw;
 		margin-bottom: 1.5vw;
 	}
