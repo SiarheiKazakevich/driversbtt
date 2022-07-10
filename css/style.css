@@ -254,7 +254,7 @@ body._touch .menulist > li._active .menuarrow {
 }
 .boxlefticon {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-around;
 }
 .boxleftitem {
@@ -452,5 +452,14 @@ a {
 .textpage1 {
   width: 80vw;
 	height: 40vh;
+}
+/*footer*/
+.boxlefticon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.boxrighticon {
+
 }
 }
