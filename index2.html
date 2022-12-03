@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="assets/img/btt.jpg">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style2.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&family=Merriweather:wght@700&family=Roboto:ital@1&display=swap">
+   <!--Подключаем JQuery, если он не подключен (телефонная трубка ) 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="tbForm/CallMe.css" media="screen" />
+	<script type="text/javascript" src="tbForm/CallMe.js"></script>
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> -->
+   <!-- connect react 
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>-->
+   <title>BTT/Drivers</title>
+</head>
+
+<body>
+   <!-- добавляем реакт сверху , попытка2 
+<h1>  hy, Serj  </h1>-->
+   <!--   <div id="root"></div>
+       <script type="text/babel" >
+  		ReactDOM.render( <App/>, document.querySelector("#root"));
+  	</script>      -->
+
+   <!-- ... остальной HTML ... 
+<div id="like_button_container"></div>-->
+   <!-- ... остальной HTML ... -->
+
+
+   <div class="wrapper">
+      <header class="header">
+         <div class="headercontainer">
+            <a href="index.html" class="headerlogo"><img class="headerlogo" src="assets/img/btt.jpg" width="30"
+                  height="30" alt="foto"></a>
+            <h1 class="textheader">DriversContainerTrucks<br><span class="galery">driver'sApp</span></h1>
+            <div class="headermenu menu">
+               <div class="menuicon">
+                  <span></span>
+               </div>
+               <nav class="menubody">
+                  <ul class="menulist">
+                     <li><img class="youtobe" src="assets/img/parking.jpg" width="27" height="21" alt="foto">
+                        <a data-goto=".pagesection1" href="#" class="menulink">Паркинги/Промки</a>
+                        <!--<span class="menuarrow"></span>
+								<ul class="menusublist">
+									<li>
+										<a href="" class="menusublink">Антверпен</a>
+									</li>
+									<li>
+										<a href="" class="menusublink">Роттердам</a>
+									</li>
+									
+								</ul>-->
+
+                     </li>
+                     <li><img class="youtobe" src="assets/img/firmparking.png" width="27" height="21" alt="foto"><a
+                           data-goto=".pagesection2" href="#" class="menulink">Фирмы с паркингами</a></li>
+                     <li><img class="youtobe phone2" src="assets/img/port2.jpg" width="27" height="24" alt="foto"><a
+                           data-goto=".pagesection3" href="#" class="menulink">Порты</a>
+
+                        <!--<a href="" class="menulink">Страница №1</a>-->
+                        <!-- 
+								<span class="menuarrow"></span>
+								<ul class="menusublist">
+									<li>
+										<a href="" class="menusublink">Антверпен</a>
+									</li>
+									<li>
+										<a href="" class="menusublink">Роттердам</a>
+									</li>
+									
+								</ul>-->
+
+                     </li>
+
+                  </ul>
+               </nav>
+            </div>
+         </div>
+         <!--my chenge-->
+
+      </header>
+      <main class="page">
+         <section class="pagesection pagesection1">
+            <h1 class="pagetitle"> <b>Паркинги/Промки</b></h1>
+            <div class="pagetext">
+               <!--<div class="chanel">-->
+               <!--<a href="https://www.youtube.com/channel/UCh5VDsIUw39g9hZTGgSOMJg/featured"><img class="fotochanel"
+								src="assets/img/chanel.PNG" width="" height="" alt="foto"></a>
+						-->
+               <!--start slider-->
+               <!--</div>-->
+
+               <li class=""><b>BELGIUM</b>
+                  <ul class="portsAntverpen">Antwerpen :
+                     <li>
+                        <a href="https://goo.gl/maps/8qai8rWNjVT2Zeaw8" class="menusublink">Ruminka-(51.287993,
+                           4.388307)</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class=""><b>NETHERLANDS</b>
+
+                  <ul class="portsAntverpen">Breda :
+
+                     <li>
+                        <a href="https://goo.gl/maps/c5hairuiQ6h87BSJ7" class="menusublink">XZ1($DKV)-(51.4875694,
+                           4.7375667)</a>
+                     </li>
+                  </ul>
+                  <ul class="portsAntverpen">Rotterdam :
+
+                     <li>
+                        <a href="https://goo.gl/maps/sKNd4FmktG4tCv358" class="menusublink">Plaza($DKV)-(51.9296893,
+                           4.0235466)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/DWmhshXJYr18PHJk8" class="menusublink">15s'ezd($DKV)-(51.8712997,
+                           4.2648080)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/PvyAQZh6zxV8rHGGA" class="menusublink">18s'ezdN1($DKV)-(51.8724747,
+                           4.4360010)</a>
+                     </li>
+                  </ul>
+                  <ul class="portsAntverpen">Venlo :
+
+                     <li>
+                        <a href="https://goo.gl/maps/iQnfCSDJ7eD8aCeV6" class="menusublink">XZ2($DKV)-(51.3910227,
+                           6.1014390)</a>
+                     </li>
+                  </ul>
+               </li>
+
+
+            </div>
+         </section>
+         <!--BLOCK TWO***********************************-->
+         <!--BLOCK TWO***********************************-->
+         <section class="pagesection pagesection2">
+            <h2 class="pagesubtitle">Фирмы с паркингами</h2>
+            <div class="pagetext">
+               <!--<div class="chanel">
+						<img class="fotochanel" src="assets/img/luna.jpg" width="" height="" alt="foto">
+					</div>-->
+
+               <li class=""><b>GERMANY</b>
+                  <!--<ul class="portsAntverpen">6autoban/Mannheim/Frankenthal :
+									<li>
+										<a href="https://goo.gl/maps/Kw6oxuuzXs8XDGua7" class="menusublink">BASF(tamoznia)-(49.5517874, 8.4006359)</a>
+									</li>								
+				        </ul>-->
+                  <ul class="portsAntverpen">6autoban/Mannheim/Ludwigshafen :
+                     <li>
+                        <a href="https://goo.gl/maps/j5P4WkBxzXEKL4TA8"
+                           class="menusublink">BASFtor15(zavod)-(49.537779,8.410189)</a>
+                     </li>
+
+
+                  </ul>
+
+               </li>
+
+
+            </div>
+         </section>
+         <!--finish block two-->
+
+         <!--BLOCK Three***********************************-->
+         <!--BLOCK Three***********************************-->
+         <section class="pagesection pagesection3">
+            <h2 class="pagesubtitle">Порты</h2>
+            <div class="pagetext">
+
+               <li class=""><b>BELGIUM</b>
+                  <ul class="portsAntverpen">Antwerpen :
+                     <li>
+                        <a href="https://goo.gl/maps/ZzDuJcD7FRd7ug3V7" class="menusublink">ASHCCO-(51.2855174,
+                           4.3498575)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/hiv3zmoqx2SUSAbm7"
+                           class="menusublink">BecomarK614-(51.316222,4.320582)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/mVJpkRQ3h76n6wJo9" class="menusublink">EuroportsTA524-(51.2997252,
+                           4.3350844)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/tApuXAReHfBy5y7W9" class="menusublink">DRdepots-(51.2855325,
+                           4.3493211)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/KBkbwiLoJrB24eHx8" class="menusublink">GTS-(51.2758037,
+                           4.2678682)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/QNcTEet9wMnCQzhx5" class="menusublink">Medrepair4-(51.3007180,
+                           4.3342395)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/a5S1o84pzoK1yeog9"
+                           class="menusublink">NovaNatieTerminals-(51.276062,4.372701)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/KZCd9f7k42b6GjbS7"
+                           class="menusublink">PROGECOdepod708-(51.319989,4.324618)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/MtKfEdC5DdrztqUF9" class="menusublink">k364/ATO-(51.2735074,
+                           4.3675513)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/d8JQkmeVJe5trxDr9" class="menusublink">k730-(51.3250915,
+                           4.3450060)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/N1c7WAxr2MukioCNA"
+                           class="menusublink">k869-(51.341463,4.283147)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/VGXMdxZJRkef7zrS6"
+                           class="menusublink">k913-(51.359332,4.258254)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/AycnHC8ctX7SCCHLA" class="menusublink">k1616-(51.2774650,
+                           4.2526713)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/a8nfhQFzxYmeFX6D8" class="menusublink">k1700-(51.2826060,
+                           4.2658424)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/MveXCpQUPgDyiLST8" class="menusublink">k1718-(51.2787074,
+                           4.2512498)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/b26jyUCmBAEg7LiN6" class="menusublink">k1742-(51.2810219,
+                           4.2418861)</a>
+                     </li>
+
+
+                  </ul>
+               </li>
+               <li class=""><b>NETHERLANDS</b>
+                  <ul class="portsAntverpen">Rotterdam :
+
+                     <li>
+                        <a href="https://goo.gl/maps/9iqVBcY3q1XYzihA7"
+                           class="menusublink">ALCONET-(51.887100,4.234464)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/3MED75FrX5sr8jpf8" class="menusublink">APM1-(51.9553070,
+                           4.0289275)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/kyvikT3R36TufieG9" class="menusublink">APM2-(51.9556370,
+                           4.0153295)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/VpuavCc2BYXBpZub7"
+                           class="menusublink">BargeCenter1-(51.883194,4.432369)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/KBgDXahAjLfgvgtL6" class="menusublink">BargeCenter2-(51.8799123,
+                           4.4357003)</a>
+                     </li>
+
+
+                     <li>
+                        <a href="https://goo.gl/maps/oAzSqLsVYCFHaxnQ6"
+                           class="menusublink">Containerplein-(51.948434,4.014900)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/RTHuDzF97MCvfoAK6" class="menusublink">DepotPier7-(51.8900679,
+                           4.4360056)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/aa9irrC95XWRC6WD7" class="menusublink">ECT/delta-(51.9544196,
+                           4.0289812)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/9QCxDbvqAfTJENsE7" class="menusublink">EUROMAX-(51.9819035,
+                           4.0409174)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/FFUhGcMWRuvc2HVw5"
+                           class="menusublink">KRAMER/delta/maaswlakte-(51.943519,4.035380)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/ntnD8geRuDTg5dNt5"
+                           class="menusublink">KRAMER/Botlek/RST-(51.8811584, 4.4252551)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/pg5DbaerxBMowJV78" class="menusublink">KRAMER/RTW2-(51.949610,
+                           4.018876)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/472e7dAqoeJSsVta8" class="menusublink">RWG-(51.9391171,
+                           3.9774497)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/SdTuLnqBy3rANHbR7" class="menusublink">RST-(51.8763061,
+                           4.4284497)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/43svJykahqVpe5qA7" class="menusublink">UWT-(51.8906458,
+                           4.4043624)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/ppGySabf2iWzJ6vF6" class="menusublink">UWT2-(51.8882686,
+                           4.4134283)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/BpgHtXHttBHT5mNg9"
+                           class="menusublink">UWT3(registration)-(51.8899506, 4.4090509)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/d1BDXVn6ACcSmRNWA" class="menusublink">VanDoorn-(51.937527,
+                           4.011923)</a>
+                     </li>
+
+                  </ul>
+               </li>
+               <li class=""><b>GERMANY</b>
+                  <ul class="portsAntverpen">Dortmund :
+                     <li>
+                        <a href="https://goo.gl/maps/6zpQC86rcHdxpwPo7"
+                           class="menusublink">CTD(old)-(51.529458,7.440558)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/ALsPbQY2eKMYsxyf6" class="menusublink">CTD2(new)-(51.5369512,
+                           7.4214982)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/EW7LLUN7yiWF5VwF9" class="menusublink">CTD3(superNew)-(51.5248172,
+                           7.4383586)</a>
+                     </li>
+
+                  </ul>
+                  <ul class="portsAntverpen">Duisburg :
+                     <li>
+                        <a href="https://goo.gl/maps/Jqynz9UnU7ZHB5td9"
+                           class="menusublink">DECETE-(51.450120,6.746794)</a>
+                     </li>
+
+
+                  </ul>
+                  <ul class="portsAntverpen">Germersheim :
+                     <li>
+                        <a href="https://goo.gl/maps/15n8FV9YsSZz6SFf7"
+                           class="menusublink">DPworld-(49.230010,8.377230)</a>
+                     </li>
+
+                  </ul>
+                  <ul class="portsAntverpen">Frankfurt am Main :
+                     <li>
+                        <a href="https://goo.gl/maps/RcQZFmPUAzXACDzEA" class="menusublink">DBintermodal-(50.1156014,
+                           8.7191937)</a>
+                     </li>
+                     <li>
+                        <a href="https://goo.gl/maps/eAhcN7uSEHANeSCs9" class="menusublink">Contargo-(50.1114266,
+                           8.7214692)</a>
+                     </li>
+
+                  </ul>
+                  <ul class="portsAntverpen">Karlsruhe :
+                     <li>
+                        <a href="https://goo.gl/maps/5vgFZ9cBQEmuGQ3C9" class="menusublink">Contargo-(49.016962,
+                           8.320299)</a>
+                     </li>
+
+                  </ul>
+                  <ul class="portsAntverpen">Kehl :
+                     <li>
+                        <a href="https://goo.gl/maps/ng2tbZpujSxWzvXZA" class="menusublink">ETK-(48.5964182,
+                           7.8173521)</a>
+                     </li>
+
+                  </ul>
+                  <ul class="portsAntverpen">Koln :
+                     <li>
+                        <a href="https://goo.gl/maps/U4FBujrcXjt7gB4x8"
+                           class="menusublink">GTS(registration)-(50.977375,6.977161)</a>
+                     </li>
+
+                     <li>
+                        <a href="https://goo.gl/maps/m9aLVTuDxJWAJ7eH8" class="menusublink">GTS/Molenkopf-(50.9804045,
+                           6.9800711)</a>
+                     </li>
+
+                  </ul>
+                  <ul class="portsAntverpen">Ludwigshafen am Rhein :
+                     <li>
+                        <a href="https://goo.gl/maps/JYfAUqAsLueY9YR67"
+                           class="menusublink">Contargo-(49.458236,8.436391)</a>
+                     </li>
+
+                  </ul>
+                  <ul class="portsAntverpen">Mainz :
+                     <li>
+                        <a href="https://goo.gl/maps/QXrfipRqd4RJKNgGA"
+                           class="menusublink">Frankenbach-(50.023431,8.242571)</a>
+                     </li>
+
+                  </ul>
+                  <ul class="portsAntverpen">Mannheim :
+                     <li>
+                        <a href="https://goo.gl/maps/6EAHiiqhf37KR5JP7"
+                           class="menusublink">Contargo-(50.023431,8.242571)</a>
+                     </li>
+
+                  </ul>
+               </li>
+               <li class=""><b>FRANCE</b>
+                  <ul class="portsAntverpen">Strasbourg :
+
+                     <li>
+                        <a href="https://goo.gl/maps/NwzhmNe4ugPtqH39A"
+                           class="menusublink">ColisLourds-(48.537990,7.793334)</a>
+                     </li>
+
+
+                  </ul>
+               </li>
+            </div>
+
+         </section>
+      </main>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+   <!-- Загрузим React. -->
+   <!-- Примечание: для деплоя на продакшен замените окончание «development.js» на «production.min.js». -->
+   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+   <!-- Загрузим наш React-компонент.попытка1 -->
+   <script src="../boxContainerApp/index.js"></script>
+   <!-- Загрузим наш React-компонент.попытка3 -->
+   <script src="../boxContainerApp/container_app.js"></script>
+   <script src="../App.js"></script>
+
+   <script src="js/script.js"></script>
+   <script src="js/index.js"></script>
+</body>
+
+</html>
