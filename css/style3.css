@@ -1,0 +1,31 @@
+/*-------------стили первой страницы --------------*/
+.pagesectionflex{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.pagetitleblock{
+   display: block;
+   color: #000;
+}
+.wraperdkvmap{
+background-image: url('../assets/img/dkvMap.png');
+background-repeat: no-repeat;
+background-size: auto;
+/*max-width: auto;*/
+width: 60vw;
+height: 300px;
+max-height: 400px;
+/*flex: 1;*/
+}
+A:link { 
+   text-decoration: none; /* Убирает подчеркивание для ссылок */
+   color: black;
+  } 
+  A:visited { text-decoration: none; } 
+  A:active { text-decoration: none; }
+  A:hover {
+   text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+   color: red; /* Цвет ссылки */
+  }

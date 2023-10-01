@@ -83,7 +83,7 @@ body._lock {
 	color: rgb(249, 10, 10);
 }
 .chanel {
-	display: inline-block
+	display: inline-block;
 	align-items: center;
 }
 .fotochanel {
@@ -153,19 +153,9 @@ body._lock {
 /*my change*/
 .galery {
 	font-size: 11px;
-
-
-}
-.headermenu {
-}
-.menu {
 }
 .menuicon {
 	display: none;
-}
-.menubody {
-}
-.menulist {
 }
 .menulist > li {
 	position: relative;
@@ -291,10 +281,6 @@ a {
 	justify-content: space-around;
 	text-decoration: none;
 }
-.iconfooter {
-
-}
-
 /*------------*/
 @media (min-width: 767px) {
 	.menulist {
@@ -446,9 +432,6 @@ a {
 		margin-right: 1.5vw;
 		margin-bottom: 1.5vw;
 	}
-.phone2 {
-	/*background-color : rgb(243, 251, 6);*/
-}
 .textpage1 {
   width: 80vw;
 	height: 40vh;
@@ -458,8 +441,5 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-}
-.boxrighticon {
-
 }
 }
