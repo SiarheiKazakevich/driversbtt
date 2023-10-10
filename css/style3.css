@@ -35,3 +35,13 @@ A:link {
    height: 650px;
    max-height: 750px;
   }
+  .wrapergazmap{
+   background-image: url('../assets/img/gazMap.png');
+   background-repeat: no-repeat;
+   background-size: auto;
+   /*max-width: auto;*/
+   width: 60vw;
+   height: 300px;
+   max-height: 400px;
+   /*flex: 1;*/
+  }
